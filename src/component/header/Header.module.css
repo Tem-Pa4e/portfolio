@@ -1,0 +1,10 @@
+.headerBlock {
+    height: 80px;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.headerContainer {
+    justify-content: flex-end !important;
+}

@@ -1,0 +1,27 @@
+.contactFormBlock {
+    height: 70vh;
+    background-color: #bcbcff;
+}
+
+.contactFormContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.contactFormInput {
+    width: 250px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 1rem
+
+}
+
+.contactFormArea {
+    width: 250px;
+    min-height: 160px;
+    margin-bottom: 1rem
+}
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
