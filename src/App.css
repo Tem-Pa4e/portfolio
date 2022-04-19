@@ -1,3 +1,8 @@
 .App {
-
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    position: relative;
 }

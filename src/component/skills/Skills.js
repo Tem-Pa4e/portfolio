@@ -1,5 +1,5 @@
 import React from 'react';
-import stContainer from '../../common/style/Container.module.css'
+import stContainer from '../../common/style/BasicModules.module.css'
 import st from './Skills.module.css'
 import {Skill} from './skill/Skill'
 

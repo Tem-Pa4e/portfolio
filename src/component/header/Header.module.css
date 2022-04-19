@@ -1,10 +1,22 @@
 .headerBlock {
-    height: 80px;
-    background-color: cadetblue;
+    width: 400px;
+    background-color: #000;
+    min-height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    z-index: 10;
+    padding: 0 100px;
 }
-.headerContainer {
-    justify-content: flex-end !important;
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0 50px 0;
 }
+.headerLogo {
+    width: 100%;
+}
+
+

@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: flex-start;
 }
-.title {
+.baseText {
     background-color: burlywood;
 }
 .skills {

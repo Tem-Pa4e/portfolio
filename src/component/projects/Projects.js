@@ -1,6 +1,6 @@
 import React from 'react';
 import st from './Projects.module.css'
-import stContainer from '../common/style/Container.module.css'
+import stContainer from '../../common/style/BasicModules.module.css'
 import {Project} from "./project/Project";
 
 

@@ -6,7 +6,7 @@ export const Project = (props) => {
         <div className={st.projectBox}>
             <div className={st.projectLogo}>{props.img}</div>
                 <h3>{props.title}</h3>
-                <span>
+                <span class={'typed'} data-elements={props.description}>
                     {props.description}
                 </span>
 

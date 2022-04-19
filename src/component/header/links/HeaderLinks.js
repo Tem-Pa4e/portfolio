@@ -1,15 +1,13 @@
 import React from 'react';
 import st from './HeaderLinks.module.css'
+import stContainer from "../../../common/style/BasicModules.module.css";
 
-export const HeaderLinks = () => {
+export const HeaderLinks = (props) => {
     return (
-        <div className={st.links}>
-            <a href="">Главная</a>
-            <a href="">Скилы</a>
-            <a href="">Работы</a>
-            <a href="">О себе</a>
-            <a href="">Контакты</a>
-        </div>
 
+    <li className={ st.menu}>
+        <img src={props.url} alt={props.alt}/>
+        <span>{props.title}</span>
+    </li>
     );
 };

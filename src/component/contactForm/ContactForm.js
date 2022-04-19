@@ -1,6 +1,6 @@
 import React from 'react';
 import st from './ContactForm.module.css'
-import stContainer from '../../common/style/Container.module.css'
+import stContainer from '../../common/style/BasicModules.module.css'
 
 export const ContactForm = () => {
     return (
