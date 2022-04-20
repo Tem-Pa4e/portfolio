@@ -1,0 +1,21 @@
+.contactForm {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    float: left;
+
+}
+.clickedForm button {
+    background-color: #fff;
+    color: #000;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 10px 24px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.clickedForm button:hover {
+    letter-spacing: 2px;
+
+}

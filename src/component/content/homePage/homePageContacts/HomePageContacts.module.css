@@ -1,0 +1,30 @@
+.contactListsBlock {
+    display: flex;
+    padding: 0;
+    width: 100%;
+    float: left;
+    list-style-type: none;
+}
+
+.contactListsBlock li {
+    margin: 0 15px 0 0;
+}
+
+.contactListsImg {
+    width: 18px;
+    height: 18px;
+    filter: invert(1);
+}
+
+@media screen and (max-width: 700px) {
+    .contactListsBlock {
+        margin: auto;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 480px) {
+        .contactListsBlock {
+            width: 70%;
+        }
+    }
+}

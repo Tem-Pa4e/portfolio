@@ -1,0 +1,34 @@
+.titleText {
+    font-size: 30px;
+}
+
+.contactForm input {
+    color: white;
+    border: 1px solid hsla(0,0%,100%,.2);
+    width: 100%;
+    background-color: transparent;
+    margin: 0;
+    padding: 10px 15px!important;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    letter-spacing: 1.2px!important;
+}
+.contactForm textarea {
+    color: white;
+    width: 100%;
+    border: 1px solid hsla(0,0%,100%,.2);
+    height: 120px;
+    resize: none;
+    background-color: transparent;
+    font-family: 'Mulish', sans-serif;
+    font-style: italic;
+    letter-spacing: 1.2px!important;
+    padding: 10px!important;
+}
+.contactForm ul {
+    list-style-type: none;
+    padding: 0;
+}
+.contactForm li {
+    margin-bottom: 30px;
+}

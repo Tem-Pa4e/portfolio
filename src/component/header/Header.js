@@ -14,22 +14,20 @@ export const Header = () => {
         {alt: 'myWorks', title: 'My works', url: "http://tokyo.ibthemespro.com/assets/img/svg/briefcase.svg"},
         {alt: 'contact', title: 'Contact', url: "http://tokyo.ibthemespro.com/assets/img/svg/mail.svg"},
     ]
-    
+
     return (
-            <div className={st.headerBlock}>
-                    <ul>
-                        <img className={st.headerLogo} src={image} alt=""/>
-                        <div className={st.menuContainer}>
-                            {menu.map(m => {
-                                return <HeaderLinks url={m.url} title={m.title} alt={m.alt}/>
-                            })}
-                        </div>
-                        <p className={`${stContainer.baseText} ${stContainer.additionalText}`}>© 2022 Grodno <br/>
-                            Created byIb-Themes</p>
-                    </ul>
-            </div>
-
-
+        <div className={st.headerBlock}>
+            <ul className={st.headerContainer}>
+                <img className={st.headerLogo} src={image} alt=""/>
+                <div className={st.menuContainer}>
+                    {menu.map(m => {
+                        return <HeaderLinks url={m.url} title={m.title} alt={m.alt}/>
+                    })}
+                </div>
+                <p className={`${stContainer.baseText} ${stContainer.additionalText}`}>© 2022 Grodno <br/>
+                    Created byIb-Themes</p>
+            </ul>
+        </div>
     );
 };
 

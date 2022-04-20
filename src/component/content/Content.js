@@ -1,13 +1,15 @@
 import React from 'react';
 import st from './Content.module.css'
-import HomePage from "./homePage/HomePage";
+import {HomePage} from "./homePage/HomePage";
+import {Contact} from "./contactPage/Contact";
+import {AboutMePage} from "./aboutMePage/AboutMePage";
 
-const Content = () => {
+export const Content = () => {
     return (
         <div className={st.contentBlock}>
-                <HomePage />
+            {/*<HomePage/>*/}
+            {/*<Contact/>*/}
+            <AboutMePage/>
         </div>
     );
 };
-
-export default Content;
