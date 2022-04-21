@@ -9,8 +9,15 @@
     align-items: center;
     z-index: 10;
     padding: 0 100px;
+    font-family: 'Mulish', sans-serif;
+    color: #adabab;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: .5px;
 }
-
+.headerDescription {
+    font-style: italic;
+}
 .menuContainer {
     display: flex;
     flex-direction: column;
@@ -41,6 +48,7 @@
     .menuContainer {
         margin-top: 12px;
         flex-direction: row;
+        padding: 50px 0;
     }
 
     .headerContainer {

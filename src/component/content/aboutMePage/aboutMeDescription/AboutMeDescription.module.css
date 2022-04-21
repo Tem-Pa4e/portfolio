@@ -1,0 +1,14 @@
+
+.myDescription {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 700px) {
+    .myDescription {
+        flex-direction: column;
+    }
+}

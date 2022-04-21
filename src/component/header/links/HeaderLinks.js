@@ -1,13 +1,15 @@
 import React from 'react';
 import st from './HeaderLinks.module.css'
-import stContainer from "../../../common/style/BasicModules.module.css";
+import {NavLink} from "react-router-dom";
 
 export const HeaderLinks = (props) => {
 
     return (
     <li className={st.menu}>
+        <NavLink to={props.link}>
         <img src={props.url} alt={props.alt}/>
-        <span className={stContainer.baseText}>{props.title}</span>
+        <span>{props.title}</span>
+        </NavLink>
     </li>
     );
 };

@@ -1,4 +1,4 @@
-.contactBlock {
+.boxSkills {
     width: 100%;
     height: auto;
     clear: both;
@@ -15,4 +15,26 @@
     line-height: 30px;
     letter-spacing: .5px;
 }
+.leftBoxContainer {
+    width: 100%;
 
+    padding: 0;
+}
+.leftBoxBlock {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 33px;
+}
+.skill {
+    width: 100%;
+    margin-bottom: 17px;
+}
+.backgroundContainer {
+
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    height: 3px;
+}

@@ -1,7 +1,15 @@
 .titleText {
+    color: #fff;
+    font-weight: 800;
     font-size: 30px;
 }
-
+.contactForm {
+    font-size: 15px;
+    color: #adabab;
+    font-family: 'Mulish', sans-serif;
+    line-height: 30px;
+    letter-spacing: .5px;
+}
 .contactForm input {
     color: white;
     border: 1px solid hsla(0,0%,100%,.2);
@@ -9,7 +17,6 @@
     background-color: transparent;
     margin: 0;
     padding: 10px 15px!important;
-    font-family: 'Mulish', sans-serif;
     font-style: italic;
     letter-spacing: 1.2px!important;
 }
@@ -20,7 +27,6 @@
     height: 120px;
     resize: none;
     background-color: transparent;
-    font-family: 'Mulish', sans-serif;
     font-style: italic;
     letter-spacing: 1.2px!important;
     padding: 10px!important;

@@ -1,89 +1,16 @@
 .aboutMeBlock {
     width: 100%;
-    height: auto;
+    height: 100%;
     clear: both;
     float: left;
-    padding: 80px 40px 0 40px;
-    background: transparent;
+    padding: 60px 40px 60px 40px;
+    background-color: #111;
     border: 0;
-    margin: 0;
     vertical-align: baseline;
     outline: none;
-}
-.aboutMePhoto {
-    margin: 0;
-    width: 100%;
-    height: auto;
-    clear: both;
-    float: left;
-    margin-bottom: 45px;
-}
-.aboutMePhoto img {
-    vertical-align: middle;
-    max-width: 100%;
-    height: auto;
-}
-.titleText {
-    font-size: 22px;
-}
-.aboutMeClicked {
-    width: 100%;
-    height: auto;
-    clear: both;
-    float: left;
-}
-.aboutMeClicked button {
-    background-color: #fff;
-    color: #000;
-    font-size: 15px;
-    line-height: 15px;
-    padding: 19px 40px;
-    border: none;
-    cursor: pointer;
-    transition: all .3s ease;
-}
-.aboutMeClicked button:hover {
-    letter-spacing: 2px;
-}
-.myDescription {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    justify-content: space-between;
-}
-.leftDescription {
-    width: 55%;
-    padding-right: 50px;
-    margin: 0;
-}
-.rightDescription {
-    width: 45%;
-    padding: 0 0 0 50px;
-    margin: 0;
-}
-.rightDescription ul {
-    list-style-type: none;
-    font-size: 15px;
-    color: #adabab;
     font-family: 'Mulish', sans-serif;
+    font-size: 15px;
     line-height: 30px;
     letter-spacing: .5px;
-    margin: 0;
-    padding: 0;
-
-
-}
-.rightDescription p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
-.rightDescription span {
-    margin: 0;
-    padding: 0;
-    min-width: 90px;
-    display: inline-block;
-    font-weight: 700;
+    color: #adabab;
 }

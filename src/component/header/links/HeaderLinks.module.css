@@ -7,14 +7,20 @@
     outline: none;
     display: flex;
 }
+.menu a {
+    text-decoration: none;
+}
 .menu img{
     filter: invert(70%);
     width: 15px;
     height: 15px;
     vertical-align: middle;
     margin-right: 10px;
-    margin-top: 6px;
+    margin-bottom: 4px;
     transition: all .3s ease;
+}
+.menu span {
+    color: #adabab;
 }
 
 .menu span:hover {
@@ -29,4 +35,5 @@
     .menu span{
         display: none ;
     }
+
 }

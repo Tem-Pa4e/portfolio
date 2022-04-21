@@ -1,0 +1,36 @@
+.descriptionText {
+    font-style: italic;
+    margin: 0 0 35px 0;
+}
+.additionalInfo {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    margin-bottom: 50px;
+}
+.additionalInfo button {
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: .5px;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 18px 40px;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.additionalInfo button:hover {
+    letter-spacing: 2px;
+}
+.leftDescription {
+    width: 55%;
+    padding-right: 40px;
+    margin: 0;
+}
+@media screen and (max-width: 700px){
+    .leftDescription {
+        width: 100%;
+        padding: 0;
+    }
+}

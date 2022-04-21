@@ -3,19 +3,19 @@
     margin: 0;
     width: 100%;
     float: left;
-
 }
 .clickedForm button {
+    font-size: 15px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 15px;
+    letter-spacing: .5px;
     background-color: #fff;
     color: #000;
-    font-size: 15px;
-    line-height: 15px;
-    padding: 10px 24px;
+    padding: 18px 40px;
     border: none;
     cursor: pointer;
     transition: all .3s ease;
 }
 .clickedForm button:hover {
     letter-spacing: 2px;
-
 }

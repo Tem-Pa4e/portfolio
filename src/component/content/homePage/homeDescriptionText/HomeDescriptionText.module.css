@@ -1,6 +1,7 @@
 .details {
     margin-bottom: 30px;
     margin-left: 3px;
+    font-style: italic;
 }
 
 @media screen and (max-width: 700px) {

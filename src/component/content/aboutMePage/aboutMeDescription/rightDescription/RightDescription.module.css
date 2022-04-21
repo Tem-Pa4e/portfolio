@@ -1,0 +1,38 @@
+.rightDescription {
+    width: 45%;
+    padding-left: 40px;
+}
+.rightDescription ul {
+    list-style-type: none;
+    margin: 0;
+}
+.rightDescription li {
+    width: 100%;
+
+}
+.rightDescription p {
+    margin: 0;
+    padding: 0;
+}
+.rightDescription span {
+    margin: 0;
+    padding: 0;
+    min-width: 90px;
+    display: inline-block;
+    font-weight: 700;
+    color: white;
+}
+.rightDescription a {
+    text-decoration: none;
+    color: #adabab;
+}
+@media screen and (max-width: 700px){
+
+    .rightDescription {
+        width: 100%;
+        padding: 0;
+    }
+    .rightDescription ul{
+        padding: 0;
+    }
+}
