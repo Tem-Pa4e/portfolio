@@ -7,7 +7,7 @@ import image from "../../common/pictures/frontend.jpg"
 export const Header = () => {
 
     const menu = [
-        {alt: 'home', title: 'Home', url: "http://tokyo.ibthemespro.com/assets/img/svg/home-run.svg", link:'/home' },
+        {alt: 'home', title: 'Home', url: "http://tokyo.ibthemespro.com/assets/img/svg/home-run.svg", link:'' },
         {alt: 'about', title: 'About', url: "http://tokyo.ibthemespro.com/assets/img/svg/avatar.svg", link:'/aboutMe'},
         {alt: 'skills', title: 'Skills', url: "http://tokyo.ibthemespro.com/assets/img/svg/paper.svg", link:'/skills'},
         {alt: 'myWorks', title: 'My works', url: "http://tokyo.ibthemespro.com/assets/img/svg/briefcase.svg", link:'/home'},

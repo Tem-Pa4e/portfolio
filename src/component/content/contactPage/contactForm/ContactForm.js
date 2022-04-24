@@ -4,7 +4,7 @@ import {FillingForm} from "./fillingForm/FillingForm";
 
 export const ContactForm = () => {
     return (
-        <form>
+        <form style={{margin: '20% 0'}}>
             <div className={st.contactForm}>
                 <FillingForm/>
             </div>

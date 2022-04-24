@@ -10,7 +10,7 @@ export const Content = () => {
     return (
         <div className={st.contentBlock}>
             <Routes>
-                <Route path={'/home'} element={<HomePage/>}/>
+                <Route path={''} element={<HomePage/>}/>
                 <Route path={'/aboutMe'} element={<AboutMePage/>}/>
                 <Route path={'/contact'} element={<Contact/>}/>
                 <Route path={'/skills'} element={<Skills/>}/>

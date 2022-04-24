@@ -1,0 +1,29 @@
+.skillsBlock {
+    width: 100%;
+    padding-right: 50px;
+}
+.skillsBlock h3 {
+    margin: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+}
+.skillsContainer {
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    padding-top: 33px;
+}
+.skill {
+    color: #bbb;
+    font-style: italic;
+    width: 100%;
+    margin-bottom: 17px;
+}
+.backgroundContainer {
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    height: 3px;
+}
