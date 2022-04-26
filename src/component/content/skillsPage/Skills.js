@@ -21,46 +21,66 @@ export const Skills = () => {
                 <div style={{width: '100%', height: 'auto', clear: 'both', float: 'left'}}>
                     <h3 style={{fontWeight: '700', fontSize: '20px'}}>Work with react component library</h3>
                     <ul>
-                        <div style={{position: 'relative',display: 'flex',maxWidth: '100%'}}>
+                        <div style={{position: 'relative',display: 'flex',width: '100%',marginTop: '20px'}}>
                             <button className={st.btnLeft}></button>
-                            <div style={{marginTop: '20px'}}>
+                            <div style={{width: '100%'}}>
                                 <div className={st.transformDiv}>
-                                    <div style={{width: '10%', marginRight: '20px'}}>
-                                        <li style={{width: '100%', display: 'inline-block', textAlign: 'center'}}>
+                                    <div style={{width: '100%', display: 'flex'}}>
+                                        <li style={{width: '10%', display: 'inline-block', textAlign: 'center', marginRight: '65px'}}>
                                             <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={materUiLogo} alt=""/>
                                             <span>MaterialUI</span>
                                         </li>
-                                    </div>
-                                    <div style={{width: '10%', marginRight: '20px'}}>
-                                        <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>
+                                        <li style={{width:'10%', display: 'inline-block', textAlign: 'center', marginRight: '65px'}}>
                                             <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={reduxLogo} alt=""/>
                                             <span>Redux</span>
                                         </li>
-                                    </div>
-                                    <div style={{width: '10%', marginRight: '20px'}} >
-                                        <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>
+                                        <li style={{width:'10%', display: 'inline-block', textAlign: 'center', marginRight: '65px'}}>
                                             <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={reactLogo} alt=""/>
                                             <span>React</span>
                                         </li>
-                                    </div>
-                                    <div style={{width: '15%', marginRight: '20px'}}>
-                                        <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>
+                                        <li style={{width:'10%', display: 'inline-block', textAlign: 'center', marginRight: '65px'}}>
                                             <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={bootstrapLogo} alt=""/>
                                             <span>Bootstrap</span>
                                         </li>
                                     </div>
-                                    <div style={{width: '10%', marginRight: '20px'}}>
-                                        <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>
-                                            <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={storybookLogo} alt=""/>
-                                            <span>StoryBook</span>
-                                        </li>
-                                    </div>
-                                    <div style={{width: '10%', marginRight: '20px'}}>
-                                        <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>
-                                            <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={angularLogo} alt=""/>
-                                            <span>Angular</span>
-                                        </li>
-                                    </div>
+                                    {/*<div style={{width: '10%', marginRight: '20px'}}>*/}
+                                    {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}
+                                    {/*        <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={reduxLogo} alt=""/>*/}
+                                    {/*        <span>Redux</span>*/}
+                                    {/*    </li>*/}
+                                    {/*</div>*/}
+                                    {/*<div style={{width: '10%', marginRight: '20px'}} >*/}
+                                    {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}
+                                    {/*        <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={reactLogo} alt=""/>*/}
+                                    {/*        <span>React</span>*/}
+                                    {/*    </li>*/}
+                                    {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}
+                                    {/*        <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={storybookLogo} alt=""/>*/}
+                                    {/*        <span>StoryBook</span>*/}
+                                    {/*    </li>*/}
+                                    {/*</div>*/}
+                                    {/*<div style={{width: '10%', marginRight: '20px'}}>*/}
+                                    {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}
+                                    {/*        <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={bootstrapLogo} alt=""/>*/}
+                                    {/*        <span>Bootstrap</span>*/}
+                                    {/*    </li>*/}
+                                    {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}
+                                    {/*        <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={angularLogo} alt=""/>*/}
+                                    {/*        <span>Angular</span>*/}
+                                    {/*    </li>*/}
+                                    {/*</div>*/}
+                                    {/*<div style={{width: '10%', marginRight: '20px'}}>*/}
+                                    {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}
+                                    {/*        <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={storybookLogo} alt=""/>*/}
+                                    {/*        <span>StoryBook</span>*/}
+                                    {/*    </li>*/}
+                                    {/*</div>*/}
+                                    {/*<div style={{width: '10%', marginRight: '20px'}}>*/}
+                                    {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}
+                                    {/*        <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={angularLogo} alt=""/>*/}
+                                    {/*        <span>Angular</span>*/}
+                                    {/*    </li>*/}
+                                    {/*</div>*/}
 
                                 </div>
 
