@@ -1,12 +1,9 @@
 .contactBlock {
     width: 100%;
-    height: auto;
     clear: both;
     float: left;
-    background: transparent;
-    border: 0;
-    margin: 0;
-    padding: 25px 40px 0 40px ;
+    background-color: #111;
+    padding: 0 40px;
     vertical-align: baseline;
     outline: none;
     font-size: 15px;
@@ -14,5 +11,6 @@
     font-family: 'Mulish', sans-serif;
     line-height: 30px;
     letter-spacing: .5px;
+
 }
 

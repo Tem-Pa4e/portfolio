@@ -42,6 +42,10 @@ export const Skills = () => {
                                             <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={bootstrapLogo} alt=""/>
                                             <span>Bootstrap</span>
                                         </li>
+                                        <li style={{width:'10%', display: 'inline-block', textAlign: 'center'}}>
+                                                    <img style={{filter: 'invert(1)',maxWidth: '100%'}} src={angularLogo} alt=""/>
+                                                    <span>Angular</span>
+                                                </li>
                                     </div>
                                     {/*<div style={{width: '10%', marginRight: '20px'}}>*/}
                                     {/*    <li style={{width:'100%', display: 'inline-block', textAlign: 'center'}}>*/}

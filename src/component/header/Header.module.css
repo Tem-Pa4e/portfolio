@@ -34,6 +34,7 @@
         height: 70px;
         padding: 0;
         right: 0;
+        box-shadow: 0 0 20px #252525;
     }
 
     .headerBlock p {

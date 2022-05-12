@@ -3,7 +3,6 @@ import st from './HeaderLinks.module.css'
 import {NavLink} from "react-router-dom";
 
 export const HeaderLinks = (props) => {
-
     return (
     <li className={st.menu}>
         <NavLink to={props.link}>
