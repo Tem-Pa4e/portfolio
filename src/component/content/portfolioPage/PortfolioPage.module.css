@@ -1,0 +1,88 @@
+.portfolioContainer {
+    width: 100%;
+    min-height: 100vh;
+    padding: 25px 40px 0 40px ;
+    font-family: 'Mulish', sans-serif;
+    line-height: 30px;
+    letter-spacing: .5px;
+    color: #adabab;
+
+}
+.portfolioContainer h3 {
+    font-size: 30px;
+    color: #fff;
+}
+.headerPortfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.listOfWorks li {
+    display: inline-block;
+    margin-left: 25px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.listWrapper {
+min-height: 200vh;
+
+}
+.listWrapper ul {
+    list-style-type: none;
+}
+
+.listWrapper img {
+    width: 100%;
+    height: 415px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s;
+}
+.listWrapper li {
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+@media screen and (max-width: 700px) {
+    .listWrapper li{
+        width: 100%;
+        padding: 0;
+    }
+}
+.descriptionListWrapper {
+
+    cursor: default;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    background: hsla(0,0%,100%,.6);
+position: relative;
+    top: -80px;
+    z-index: 2;
+    bottom: 0;
+    padding: 10px 15px;
+    display: flex;
+}
+.descriptionListWrapper h5 {
+    color: #000;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 15px;
+    letter-spacing: .2px;
+    font-weight: 600;
+}
+.descriptionListWrapper span {
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    font-style: italic;
+    padding: 0 15px 5px;
+    position: relative;
+    top: -5px;
+}

@@ -10,7 +10,7 @@ export const Header = () => {
         {alt: 'home', title: 'Home', url: "http://tokyo.ibthemespro.com/assets/img/svg/home-run.svg", link:'' },
         {alt: 'about', title: 'About', url: "http://tokyo.ibthemespro.com/assets/img/svg/avatar.svg", link:'/aboutMe'},
         {alt: 'skills', title: 'Skills', url: "http://tokyo.ibthemespro.com/assets/img/svg/paper.svg", link:'/skills'},
-        {alt: 'myWorks', title: 'My works', url: "http://tokyo.ibthemespro.com/assets/img/svg/briefcase.svg", link:'/home'},
+        {alt: 'portfolio', title: 'Portfolio', url: "http://tokyo.ibthemespro.com/assets/img/svg/briefcase.svg", link:'/portfolio'},
         {alt: 'contact', title: 'Contact', url: "http://tokyo.ibthemespro.com/assets/img/svg/mail.svg", link:'/contact'},
     ]
 
