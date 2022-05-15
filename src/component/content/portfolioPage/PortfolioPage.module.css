@@ -1,36 +1,51 @@
 .portfolioContainer {
     width: 100%;
     min-height: 100vh;
-    padding: 25px 40px 0 40px ;
+    padding: 25px 40px 30px 40px;
     font-family: 'Mulish', sans-serif;
     line-height: 30px;
     letter-spacing: .5px;
     color: #adabab;
 
 }
+
 .portfolioContainer h3 {
     font-size: 30px;
-    color: #fff;
+    color: white;
 }
+
 .headerPortfolio {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+@media screen and (max-width: 472px) {
+    .headerPortfolio {
+        flex-direction: column;
+    }
+}
+
+.listOfWorks {
+    padding: 0;
+    display: flex;
+}
 
 .listOfWorks li {
-    display: inline-block;
+
     margin-left: 25px;
     list-style-type: none;
     cursor: pointer;
 }
 
 .listWrapper {
-min-height: 200vh;
-
+    position: relative;
+    min-height: 200vh;
+    text-align: center;
 }
+
 .listWrapper ul {
+    padding: 0;
     list-style-type: none;
 }
 
@@ -41,19 +56,22 @@ min-height: 200vh;
     cursor: pointer;
     transition: .5s;
 }
+
 .listWrapper li {
     float: left;
     width: 50%;
     padding: 25px;
 }
+
 @media screen and (max-width: 700px) {
-    .listWrapper li{
+    .listWrapper li {
         width: 100%;
         padding: 0;
     }
 }
-.descriptionListWrapper {
 
+.descriptionListWrapper  {
+    content: '';
     cursor: default;
     justify-content: space-between;
     align-items: baseline;
@@ -61,14 +79,17 @@ min-height: 200vh;
     height: auto;
     clear: both;
     float: left;
-    background: hsla(0,0%,100%,.6);
-position: relative;
-    top: -80px;
+    background: hsla(0, 0%, 100%, .6);
+    position: relative;
     z-index: 2;
-    bottom: 0;
-    padding: 10px 15px;
+    bottom: 60px;
     display: flex;
+
 }
+
+.listWrapper
+
+
 .descriptionListWrapper h5 {
     color: #000;
     margin: 0;
@@ -77,12 +98,15 @@ position: relative;
     letter-spacing: .2px;
     font-weight: 600;
 }
+
 .descriptionListWrapper span {
     font-size: 16px;
     color: #000;
     display: inline-block;
     font-style: italic;
     padding: 0 15px 5px;
-    position: relative;
+
     top: -5px;
 }
+
+
