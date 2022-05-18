@@ -42,6 +42,7 @@
     position: relative;
     min-height: 200vh;
     text-align: center;
+
 }
 
 .listWrapper ul {
@@ -51,7 +52,6 @@
 
 .listWrapper img {
     width: 100%;
-    height: 415px;
     object-fit: cover;
     cursor: pointer;
     transition: .5s;

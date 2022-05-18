@@ -2,7 +2,6 @@ import React from 'react';
 import st from "./ModalWindow.module.css"
 
 export const ModalWindow = ({active, setActive}) => {
-    console.log("st", st)
     return (
 
             <div className={active ? `${st.modalBlockActive} ${st.modalBlock}` : st.modalBlock}
