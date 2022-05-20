@@ -2,8 +2,7 @@ import React from 'react';
 import st from './ProjectWindow.module.css'
 
 
-export const ProjectWindow = ({active, setActive,src,arrayPictures}) => {
-
+export const ProjectWindow = ({active, setActive, mainPhoto, setValue, value, allPhotos}) => {
     return (
 
         <div className={active ? `${st.modalBlockActive} ${st.modalBlock}` : st.modalBlock}
@@ -14,9 +13,16 @@ export const ProjectWindow = ({active, setActive,src,arrayPictures}) => {
                          src="http://tokyo.ibthemespro.com/assets/img/svg/cancel.svg" alt=""/>
                 </div>
                 <div className={st.myDescription}>
-                    <button onClick={()=> src[1]}>sadsad</button>
+                    <button onClick={()=> {
+                        console.log("arrLenght", allPhotos)
+                        if (value  !== allPhotos) {
+                            setValue(value + 1)
+                        } else {
+                            setValue(0)
+                        }
+                    }}>sadsad</button>
 
-                        <img style={{height: '100%'}} src={src} alt=""/>
+                        <img style={{height: '100%'}} src={mainPhoto} alt=""/>
 
                     <button>asdsad</button>
                 </div>

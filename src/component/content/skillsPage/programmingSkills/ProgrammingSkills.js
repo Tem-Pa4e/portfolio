@@ -21,8 +21,6 @@ export const ProgrammingSkills = () => {
                         </div>
                     </div>
                 </div>
-
-
                 <div className={st.skill}>
                     <span><span>React</span><span style={{float: 'right'}}>85%</span></span>
                     <div className={st.backgroundContainer}>

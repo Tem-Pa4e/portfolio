@@ -1,0 +1,33 @@
+.listWrapper {
+    position: relative;
+    min-height: 200vh;
+    text-align: center;
+
+}
+
+.listWrapper ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.listWrapper img {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.listWrapper li {
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    .listWrapper li {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+

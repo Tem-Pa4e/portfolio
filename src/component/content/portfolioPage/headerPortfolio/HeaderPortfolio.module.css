@@ -1,0 +1,23 @@
+.headerPortfolio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 472px) {
+    .headerPortfolio {
+        flex-direction: column;
+    }
+}
+
+.listOfWorks {
+    padding: 0;
+    display: flex;
+}
+
+.listOfWorks li {
+
+    margin-left: 25px;
+    list-style-type: none;
+    cursor: pointer;
+}

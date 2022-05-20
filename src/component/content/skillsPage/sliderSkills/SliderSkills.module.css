@@ -1,0 +1,19 @@
+.sliderBlock {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container img {
+    margin: 0 auto;
+}
+
+.sliderBox {
+    margin: 40px;
+}

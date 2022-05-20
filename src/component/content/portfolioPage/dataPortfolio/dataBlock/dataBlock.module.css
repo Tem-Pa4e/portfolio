@@ -1,0 +1,36 @@
+.descriptionListWrapper {
+    content: '';
+    cursor: default;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    height: auto;
+    clear: both;
+    float: left;
+    background: hsla(0, 0%, 100%, .6);
+    position: relative;
+    z-index: 2;
+    bottom: 60px;
+    display: flex;
+
+}
+
+
+.descriptionListWrapper h5 {
+    color: #000;
+    margin: 0;
+    font-size: 18px;
+    padding: 10px 15px;
+    letter-spacing: .2px;
+    font-weight: 600;
+}
+
+.descriptionListWrapper span {
+    font-size: 16px;
+    color: #000;
+    display: inline-block;
+    font-style: italic;
+    padding: 0 15px 5px;
+
+    top: -5px;
+}
