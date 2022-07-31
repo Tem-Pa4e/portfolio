@@ -13,18 +13,26 @@ export const ProjectWindow = ({active, setActive, mainPhoto, setValue, value, al
                          src="http://tokyo.ibthemespro.com/assets/img/svg/cancel.svg" alt=""/>
                 </div>
                 <div className={st.myDescription}>
-                    <button onClick={()=> {
-                        console.log("arrLenght", allPhotos)
-                        if (value  !== allPhotos) {
+
+                    <img onClick={(e) => {
+                        if (value !== allPhotos) {
                             setValue(value + 1)
                         } else {
                             setValue(0)
                         }
-                    }}>sadsad</button>
+                    }} style={{filter: 'invert(1)', width: '35px', backgroundColor: 'white'}}
+                         src="https://img.icons8.com/pastel-glyph/344/back.png" alt="dsad"/>
 
-                        <img style={{height: '100%'}} src={mainPhoto} alt=""/>
+                    <img style={{height: '100%', padding: '0 10px 0 10px'}} src={mainPhoto} alt=""/>
 
-                    <button>asdsad</button>
+                    <img onClick={(e) => {
+                        if (value !== allPhotos) {
+                            setValue(value + 1)
+                        } else {
+                            setValue(0)
+                        }
+                    }} style={{filter: 'invert(1)', width: '35px', backgroundColor: 'white', borderRadius: '50%'}}
+                         src="https://img.icons8.com/pastel-glyph/344/forward.png" alt="dsad"/>
                 </div>
             </div>
         </div>

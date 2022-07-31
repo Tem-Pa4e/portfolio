@@ -10,7 +10,8 @@
     justify-content: center;
     transform: scale(0);
     z-index: 12;
-    padding-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .modalBlockActive {
     transform: scale(1);
@@ -26,6 +27,7 @@
 }
 .myDescription {
     display: flex;
+    align-items: center;
     padding: 50px;
 }
 @media screen and (max-width: 1000px){
@@ -49,6 +51,7 @@
     }
         .myDescription {
             margin: -25px;
+
         }
     }
 }

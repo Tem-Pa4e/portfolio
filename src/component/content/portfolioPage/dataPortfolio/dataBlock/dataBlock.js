@@ -8,8 +8,8 @@ export const DataBlock = ({name, image,library, lengthImage}) => {
 
     return (
         <ul>
-            <li onClick={() => setActive(true)} key={name}>
-                <div>
+            <li onBlur={()=> setActive(false)}   key={name}>
+                <div onClick={() => setActive(true)}  >
                     <div>
                         <img style={{height: '400px'}} src={image[0]}
                              alt=""/>
@@ -20,7 +20,7 @@ export const DataBlock = ({name, image,library, lengthImage}) => {
                     </div>
                     <ProjectWindow active={active} setActive={setActive} mainPhoto={image[arrLength]}
                                    allPhotos={lengthImage} value={arrLength} setValue={setArrLength}/>
-                </div>
+                   </div>
             </li>
         </ul>
     );
